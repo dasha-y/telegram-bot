@@ -1,5 +1,5 @@
 #use OpenJDK as the base image
-FROM openjdk:21-slim As build
+FROM openjdk:20-slim As build
 #Install Maven
 RUN apt-get update && apt-get install -y maven
 #Set the working directory
